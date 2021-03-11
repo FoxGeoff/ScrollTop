@@ -10,7 +10,7 @@ import { isPlatformBrowser } from '@angular/common';
 export class AppComponent {
   title = 'ScrollTop';
   constructor(
-    @Inject(PLATFORM_ID) private platformId: Object,
+    @Inject(PLATFORM_ID) private platformId: object,
     @Inject(APP_ID) private appId: string
   ) {}
 
