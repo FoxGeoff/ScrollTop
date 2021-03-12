@@ -14,3 +14,10 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+/**
+ *  This works but without smooth scrolling
+ *
+ *  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
+ *
+ */

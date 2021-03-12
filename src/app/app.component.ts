@@ -23,7 +23,7 @@ export class AppComponent {
         } else {
           window.clearInterval(scrollToTop);
         }
-      }, 60);  // scroll speed
+      }, 30);  // scroll speed
     }
   }
 }
